@@ -1,4 +1,5 @@
 #!/bin/bash
+source ~/miniconda3/bin/activate sdf
 python launch.py --listen --port 7860 \
 --models-dir ~/SoftWare/Sd/models/ \
 --enable-insecure-extension-access #--precision full --no-half
